@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- Crea un formulario -->
+<form action="confirmacion.php" method="POST"><!-- El form llama mediante action el archivo que va hacer la accion de insertar y con el metodo POST -->
+	<p><b>Nombre: </b> <input type="text" name="nombre"></p><!-- Campo Nombre -->
+	<p><b>Apellido: </b> <input type="text" name="apellido"></p><!--Campo Apellido -->
+	<p><b>Genero: </b><select name="genero" class="form-control"><!--Select para seleccionar el genero -->
+		<option value="Masculino">Masculino</option>
+		<option value="Femenino">Femenino</option>
+	</select></p>
+	<button type="submit">Guardar</button><!-- Un boton para que realice la accion de insertar los datos a la tabla -->
+	
+</form>
+<p><a href='lista.php'>Ver Registros</a></p><!-- Un enlace para ver registros -->
+</body>
+</html>
