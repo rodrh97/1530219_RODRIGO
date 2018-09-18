@@ -1,10 +1,11 @@
 <?php
-
 include_once('db/database_utilities.php');
 
-//$user_access = get_all();           //Se obtienen todos los registros y se llena el array mediante los usuarios encontrados en la base de datos.
-//$total_users = count($user_access); //Se hace un conteo de cuantos registros se tinen en el sistema.
+$user_access = get_all();           //Se obtienen todos los registros y se llena el array mediante los usuarios encontrados en la base de datos.
+
+$total_users = count($user_access); //Se hace un conteo de cuantos registros se tinen en el sistema.
 ?>
+
 <!doctype html>
 <html class="no-js" lang="en">
   <head>

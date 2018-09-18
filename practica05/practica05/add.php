@@ -1,13 +1,8 @@
 <?php
 include_once('db/database_utilities.php');
-
 //Se revisa que las variables nombre y email se esten recibiendo mediante el metodo POST para despues continuar
-//con la insercion de los valores ingresados en la base de datos, para finalmente redireccionar al inicio
 if(isset($_POST['nombre']) && isset($_POST['email'])){
-  $nombre=$_POST['nombre'];
-  $email=$_POST['email'];
-  $obj = new Funciones();
-  $obj->add($nombre,$email);
+  add($_POST['nombre'],$_POST['email']);
   header("location: index.php");
 }
 ?>
