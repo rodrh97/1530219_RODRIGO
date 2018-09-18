@@ -46,7 +46,7 @@ $total_users = count($user_access); //Se hace un conteo de cuantos registros se 
                   <tr>
                     <td><?php echo $user['id'] ?></td>
                     <td><?php echo $user['nombre'] ?></td>
-                    <td><?php echo $user['correo'] ?></td>
+                    <td><?php echo $user['email'] ?></td>
                     <?//Se generan dos botones, que redireccionan a acutalizaar y eliminar respectivamente."?>
                     <td><a href="./update.php?id=<?php echo($user['id']); ?>" class="button radius tiny warning"">Modificar</a></td>
                     <td><a href="./delete.php?id=<?php echo($user['id']); ?>" class="button radius tiny alert" onClick="wait();">Eliminar</a></td>
