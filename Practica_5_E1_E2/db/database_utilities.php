@@ -41,9 +41,9 @@
 	//Función para obtener todos los datos de la tabla de sport_team
 	function getAll(){
 		global $pdo;
-		$sentencia = $pdo->prepare('SELECT * FROM sport_team');
-		$sentencia->execute();
-		return $sentencia->fetchAll();
+		$sql = $pdo->prepare('SELECT * FROM sport_team');
+		$sql->execute();
+		return $sql->fetchAll();
 	}
 
 	//EJERCICIO 1
@@ -89,12 +89,12 @@
 	//Función de contador total de accesos al sistema registrados en la base de datos 
 	function count_access(){
 		global $pdo;
-		$sql="SELECT COUNT(*) AS total_access FROM user_log";
-		$stmt=$pdo->prepare($sql);
-		$stmt->execute();
-		$res=$stmt->fetchAll();
-		$acceso=$res[0]['total_access'];
-		return $acceso;
+		$query="SELECT COUNT(*) AS total_access FROM user_log";
+		$sql=$pdo->prepare($query);
+		$sql->execute();
+		$res=$sql->fetchAll();
+		$acceso_total=$res[0]['total_access'];
+		return $acceso_total;
 	}
 	//Función de contador total de usuarios activos en la base de datos
 	function count_active(){
