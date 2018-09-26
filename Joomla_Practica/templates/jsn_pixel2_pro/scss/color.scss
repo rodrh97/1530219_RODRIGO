@@ -1,0 +1,78 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+  @media (min-width: 768px) {
+    .main-menu ul.sunfw-tpl-menu > li.active::before, .main-menu ul.sunfw-tpl-menu > li:hover::before {
+      background: $main-color;
+    }
+    .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+      background-color: $main-color;
+    }
+    .menu-topmenu ul li:hover {
+        background: $main-color;
+    }
+  }
+  .demo-events .demo-events-desc h3 a {
+    color: $main-color;
+  }
+  .item-student a {
+    color: $main-color;
+  }
+  .menu.menu-treemenu li.active > a {
+    color: $main-color;
+  }
+  .sunfw-scrollup {
+    background: $main-color !important;
+  }
+  .page-header h2 {
+    color: $main-color;
+  }
+  .link-action {
+    background: $main-color;
+    &:hover {
+      background: darken($main-color, 20%);
+    }
+  }
+	.menu.menu-topmenu li a:hover {
+		color: $main-color;
+	}
+  .pagination > .active > a,
+  .pagination > .active > a:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span,
+  .pagination > .active > span:hover,
+  .pagination > .active > span:focus {
+    background-color: $main-color;
+    border-color: $main-color;
+  }
+  .main-menu.special ul.sunfw-tpl-menu > li:last-child > a {
+    color: $main-color !important;
+  }
+  .main-menu.special ul.sunfw-tpl-menu > li:last-child:hover > a {
+    color: $main-color !important;
+  }
+  #eb .eb-blog-grid-showcase-content__meta a,
+  #eb .eb-blog-grid__meta a,
+  #eb .eb-tags span a {
+	color: $main-color;
+  }
+  #eb .eb-navbar__body {
+		background-color: $main-color;
+		border-color: $main-color;
+  }
+  .Button.pb-button.btn{
+    background-color: $main-color!important;
+    &:hover{
+      background-color: #9f2b2b!important;
+    }
+  }
+  #sunfw_section_footer{
+    background: $main-color;
+  }
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+
+}

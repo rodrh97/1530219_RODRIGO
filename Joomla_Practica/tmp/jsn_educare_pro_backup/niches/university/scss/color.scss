@@ -1,0 +1,27 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+	.UniversalisEventNews .item .media .moduleItemTags a {
+		background: $main-color;
+	}
+	.feature_home .pb-grid .pb-column:hover > .Item > .pb-content {
+		background: rgba($main-color, 0.8);
+	}
+	#finder-search button.btn + a[href="#advancedSearch"] {
+		background: $main-color;
+	}
+	.item-page.edit #com-content-formTabs > li:hover a, 
+	.item-page.edit #com-content-formTabs > li.active a{
+		background: $main-color;	
+	}
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+	#finder-search button.btn:hover, 
+	#finder-search button.btn + a[href="#advancedSearch"]:hover {
+  background: $sub-color !important;
+  border-color: $sub-color !important;
+}
+}

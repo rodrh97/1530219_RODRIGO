@@ -1,0 +1,74 @@
+body {
+  background-color: #e6e9eb;
+  color: #6f7779;
+  font-family: Titillium Web;
+  font-size: 14px;
+  line-height: 1.42;
+}
+a {
+  color: #292a2d;
+}
+a:hover, a:focus {
+  color: #d2a60f;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Titillium Web;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #000;
+  letter-spacing: 0px;
+}
+h1, .h1 {
+  font-size: 31px;
+}
+h2, .h2 {
+  font-size: 25px;
+}
+h3, .h3 {
+  font-size: 21px;
+}
+h4, .h4 {
+  font-size: 15px;
+}
+h5, .h5 {
+  font-size: 12px;
+}
+h6, .h6 {
+  font-size: 11px;
+}
+.btn-default {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000;
+}
+.btn-primary {
+  border-width: 0px;
+  border-style: none;
+  border-color: #fff;
+}
+.btn-primary {
+  background: #d2a60f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.active {
+  background-color: #0d2949;
+}
+.btn-primary, .btn-default {
+  border-top-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+}

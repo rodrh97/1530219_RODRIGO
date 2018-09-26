@@ -1,0 +1,79 @@
+/* Please be careful when editing this file.
+   Don't change our color variables in line 5 & 6.
+   */
+
+   $main-color: false !default;
+   $sub-color: false !default;
+
+   @if $main-color != false {
+   .item-page.edit #com-content-formTabs > li:hover a, 
+   .item-page.edit #com-content-formTabs > li.active a{
+   	background: $main-color;
+   }
+   #finder-search button.btn + a[href="#advancedSearch"]{
+   	background: $main-color;
+   }
+   	.btn-reverse{
+   		color: $main-color!important;
+   	}
+   	.search-menu .module-title .box-title i,
+   	#kunena .btn-primary,
+   	.progress-bar,
+   	table.calendar tr td.calendarToday,
+   	table.calendar tr td.calendarTodayLinked,
+   	.slider-1st-type.pb-slider > nav a.pb-active:first-child,
+   	.slider-1st-type.pb-slider > nav a.pb-active:last-child,
+   	.pagination > .active > a, .pagination > .active > a:hover,
+   	.pagination > .active > a:focus, .pagination > .active > span,
+   	.pagination > .active > span:hover, .pagination > .active > span:focus,
+   	.jsn-carousel .owl-nav .owl-next:hover,
+   	.jsn-carousel .owl-nav .owl-prev:hover {
+   		background: $main-color;
+   	}
+   	.search-menu .module-title .box-title i:hover {
+   		background: lighten(desaturate(adjust-hue($main-color, 0.0107), 36.5567), 4.7059);
+   	}
+   	a,
+   	span.nav-header:hover,
+   	.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus,
+   	.sunfw-menu-head.navbar-default .navbar-nav > .active > a,
+   	.sunfw-menu-head.navbar-default .navbar-nav > .active > a:hover,
+   	.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover,
+   	.dropdown-menu > .active > a:focus, li.current > a,
+   	.type-1st-jarticle .Joomla_Article .pb-content .Link,
+   	.sunfw-latestnews ul.upcoming-events li .content a:hover,
+   	.pagination > li > a,
+   	.pagination > li > span,
+   	.menu.nav > li > a:hover,
+   	.menu.nav > li > a:focus,
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div > ul li:hover > a,
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div > ul li.active > a,
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div > ul li.current > a,
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div > ul li:hover > span.nav-header,
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div > ul li.active > span.nav-header,
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-item .module-style > div > ul li.current > span.nav-header,
+   	#menu_item_menu ul.sunfw-megamenu-sub-menu li.current > a,
+   	.sunfw-menu-head.navbar-default .navbar-nav > li.active > a,
+   	.sunfw-menu-head.navbar-default .navbar-nav > li:hover > a,
+   	.sunfw-menu-head.navbar-default .navbar-nav > li:hover > span.nav-header,
+   	.sunfw-menu-head.navbar-default ul ul li.current > a,
+   	.sunfw-menu-head.navbar-default .dropdown-menu li a:hover {
+   		color: $main-color;
+   	}
+   	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+   		border-color: $main-color;
+   	}
+   }
+
+   @if $sub-color != false {
+   	.main-menu nav.navbar ul.navbar-nav > li.active > a:after {
+   		border-right-color: $sub-color;
+   	}
+   	#finder-search button.btn:hover,
+   	#finder-search button.btn + a[href="#advancedSearch"]:hover{
+   		background: $sub-color!important;
+   		border-color: $sub-color!important;
+   	}
+   }
+
+

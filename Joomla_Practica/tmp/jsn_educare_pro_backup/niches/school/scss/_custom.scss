@@ -1,0 +1,58 @@
+@media(min-width: 768px){
+  .footer-nav > li:not(:first-child){
+    @include rtl-border-left(1px solid #979797 !Important);
+    @include rtl-border-right(0 !Important);
+  }
+}
+#sunfw-master > .sunfw-content > .item-page {
+    padding: 20px 30px;
+}
+body{
+  &.sunfw-com-mailto{
+    padding: 30px;
+    .button{
+      padding: 10px 20px;
+      border-radius: 4px;
+      vertical-align: middle;
+    }
+    form.form-validate {
+      .control-group{
+        margin-bottom: 15px;
+      }
+
+    }
+    .form-horizontal .control-label{
+      @include rtl-text-align-left();
+    }
+  }
+}
+.icons .dropdown-menu {
+  border: 1px solid #d1d6de;
+  border-radius: 0;
+  padding: 0;
+  >li{
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    span[class*='icon']:before{
+      font-family: FontAwesome;
+      position: absolute;
+      top: 5px;
+      @include rtl-left(10px);
+    }
+    .icon-print:before{
+      content: '\f02f';
+    }
+    .icon-envelope:before{
+      content: '\f0e0'
+    }
+    .icon-edit:before ,
+    .edit-icon:before{
+      content: '\f044'
+    }
+    > a{
+      padding: 3px 30px;
+    }
+  }
+}
+

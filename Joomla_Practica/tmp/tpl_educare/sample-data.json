@@ -1,0 +1,49 @@
+{
+  "developer": [
+    {
+      "id": "school",
+      "name": "School",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_educare/thumbnail_school.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_educare/pro/school/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_educare_pro_school_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_educare/thumbnail_university.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_educare/pro/university/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_educare_pro_university_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "school",
+      "name": "School",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_educare/thumbnail_school.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_educare/pro/school/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_educare_pro_school_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "university",
+      "name": "University",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_educare/thumbnail_university.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_educare/pro/university/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_educare_pro_university_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "school",
+      "name": "School",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_educare/thumbnail_school.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_educare/pro/school/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_educare_pro_school_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}
+

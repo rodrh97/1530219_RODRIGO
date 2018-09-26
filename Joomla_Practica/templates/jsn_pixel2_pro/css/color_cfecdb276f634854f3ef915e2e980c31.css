@@ -1,0 +1,63 @@
+/* ============================ */
+@media (min-width: 768px) {
+  .main-menu ul.sunfw-tpl-menu > li.active::before, .main-menu ul.sunfw-tpl-menu > li:hover::before {
+    background: #97ab61;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+    background-color: #97ab61;
+  }
+  .menu-topmenu ul li:hover {
+    background: #97ab61;
+  }
+}
+.demo-events .demo-events-desc h3 a {
+  color: #97ab61;
+}
+.item-student a {
+  color: #97ab61;
+}
+.menu.menu-treemenu li.active > a {
+  color: #97ab61;
+}
+.sunfw-scrollup {
+  background: #97ab61 !important;
+}
+.page-header h2 {
+  color: #97ab61;
+}
+.link-action {
+  background: #97ab61;
+}
+.link-action:hover {
+  background: #5f6c3a;
+}
+.menu.menu-topmenu li a:hover {
+  color: #97ab61;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #97ab61;
+  border-color: #97ab61;
+}
+.main-menu.special ul.sunfw-tpl-menu > li:last-child > a {
+  color: #97ab61 !important;
+}
+.main-menu.special ul.sunfw-tpl-menu > li:last-child:hover > a {
+  color: #97ab61 !important;
+}
+#eb .eb-blog-grid-showcase-content__meta a, #eb .eb-blog-grid__meta a, #eb .eb-tags span a {
+  color: #97ab61;
+}
+#eb .eb-navbar__body {
+  background-color: #97ab61;
+  border-color: #97ab61;
+}
+.Button.pb-button.btn {
+  background-color: #97ab61 !important;
+}
+.Button.pb-button.btn:hover {
+  background-color: #9f2b2b !important;
+}
+#sunfw_section_footer {
+  background: #97ab61;
+}
+/* ============================ Sub Color ============================ */

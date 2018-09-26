@@ -1,0 +1,27 @@
+#sunfw_section_top {
+  background-color: #1c1d1f;
+}
+#sunfw_section_header {
+  background-color: #0d2949;
+}
+#sunfw_section_search-top {
+  background-image: url("../../../../images/joomlashine/sample/content-types/university-banner.png");
+  background-attachment: inherit;
+  background-size: cover;
+  background-position: center top;
+}
+#sunfw_section_menu-top {
+  background-color: #fff;
+}
+#sunfw_section_footer {
+  background-color: #272c31;
+}
+#sunfw_section_copyright {
+  background-color: #1c1d1f;
+}
+#sunfw_section_content-top {
+  background-color: #fff;
+}
+#sunfw_section_content-bottom {
+  background-color: #fff;
+}

@@ -1,0 +1,82 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _modules.scss
+ */
+
+
+//
+// Module Styles
+// --------------------------------------------------
+ul.nav[class*='menu-sidemenu'] {
+  li {
+	@media (max-width: $screen-xs-max) {
+		ul{
+			display: none;
+		}
+	    &.parent > a:after{
+	    	content: '\f107';
+	    	font-family: FontAwesome;
+	    	float: right;
+	    }		
+	}
+  }
+}
+
+
+//
+// Breadcrumbs
+// --------------------------------------------------
+.sunfw-breadcrumb {
+  padding: 40px 0;
+  .breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    > .active {
+      color: #FFF;
+    }
+  }
+}
+
+//
+// Pagination
+// --------------------------------------------------
+
+
+// Easy Blog 
+.sportnew-cat {
+	padding-left: 0;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	list-style: none;
+	li {
+		margin-bottom: 10px;
+		a {
+			font-size: 13px;
+			padding: 5px 0px;
+			color: #4D4D4D;
+			display: block;
+		}
+		.fa {
+		    font-family: "FontAwesome" !important;
+		}
+	}
+}
+.eb-jsn_pixel.eb-layout-default {
+    background: #FFF none repeat scroll 0% 0%;
+    padding: 10px;
+}
+
+//Kunena 
+body.sunfw-com-kunena #sunfw_section_compoment .layout-item {
+    background: #fff;
+    padding-bottom: 10px;
+}
+.customer-feedback {
+	.module-title {
+		.box-title {
+			@include rtl-padding-left(0 !important);
+		}
+	}
+}

@@ -1,0 +1,891 @@
+
+//======================= Override Bootstrap ====================//
+//==============================================================//
+
+body {
+  overflow-x: hidden;
+}
+nav.navbar-default {
+  background: transparent;
+  border: none;
+  margin: 0;
+}
+input:focus, button:focus {
+  outline: none;
+}
+select {
+  background: #FFF;
+}
+
+.jsn_menu_top .sunfw-menu-head span.menudescription {
+  padding-bottom: 0;
+  margin-top: -18px;
+}
+
+
+//============================ Block ============================//
+//==============================================================//
+//========== Social
+.sunfw-social {
+  ul li {
+    height: auto;
+    width: auto;
+    border: none;
+    @include border-radius(0);
+    line-height: 1;
+    &:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+
+//============================ Section ============================//
+//================================================================//
+//========== Section Top
+
+.jsn_top {
+  padding: 9px 0;
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  a {
+    color: rgba(255,255,255,0.6);
+  }
+  i {
+    color: rgba(255,255,255,0.6);
+  }
+  p {
+    margin: 0;
+  }
+  .sunfw-social {
+    float: right;
+  }
+}
+
+
+//================================================================//
+//========== Section Header
+
+.jsn_header {
+  .sunfw-menu {
+    .sunfw-tpl-menu {
+      float: right;
+      .active > a, .active > a:hover,
+      .active > a:focus {
+        background: transparent;
+        color: #FFF;
+      }
+      > li {
+        > a {
+          padding: 0 15px;
+          line-height: 87px;
+          position: relative;
+          &:after {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            content: "";
+            display: block;
+            width: 1px;
+            height: 15px;
+            background: #fff;
+          }
+        }
+        &:last-child > a {
+          padding-right: 0;
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .sunfw-menu {
+    padding-right: 0;
+  }
+}
+
+
+//================================================================//
+//========== Section Menu Top
+
+.jsn_menu_top {
+  .navbar-collapse {
+    padding: 0;
+  }
+  .sunfw-tpl-menu {
+    > li {
+      border-left: 1px solid #eaecee;
+      &:last-child {
+        border-right: 1px solid #eaecee;
+      }
+      > a,span.nav-header {
+        padding: 0 25px;
+        line-height: 56px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.search_universalis {
+  position: relative;
+  width: 100%;
+  i {
+    background: #FFF;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    width: 65px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 56px;
+    color: #2e2e30;
+    cursor: pointer;
+    z-index: 9;
+  }
+  input {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: #eee;
+    float: right;
+    width: 0;
+    line-height: 45px;
+    padding: 5px;
+    @include transition(0.8s);
+  }
+  &.show {
+    input {
+      width: 300px;
+      max-width: 100%;
+    }
+  }
+}
+
+
+//================================================================//
+//========== Section Search Top
+
+.jsn_search_top {
+  &.sunfw-section {
+    padding-top: 320px;
+    padding-bottom: 70px;
+  }
+  text-align: center;
+  .box-title {
+    font-size: 55px;
+    line-height: 1;
+    font-weight: bold;
+    color: #FFF;
+  }
+}
+
+
+//================================================================//
+//========== Section Feature
+
+.jsn_feature {
+  padding-top: 18px;
+}
+
+
+//================================================================//
+//========== Section JSN Main Body
+.jsn_main_body {
+  padding-top: 50px;
+}
+.blog {
+  .entry-content{
+    margin-top: 10px;
+  }
+  > .page-header {
+    margin-top: 0;
+    padding-bottom: 30px;
+    h1 {
+      font-size: 28px;
+      line-height: 1;
+      margin-top: 0;
+    }
+  }
+  .media {
+    position: relative;
+    .item-image {
+      padding: 0;
+    }
+  }
+  .item {
+    background: #FFF;
+    padding: 20px;
+    .media {
+      margin: 0 -20px;
+    }
+    h2 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .carousel-inner{
+    .item{
+      padding: 0;
+    }
+  }
+  .items-row {
+    padding-bottom: 30px;
+  }
+  .article-info {
+    border-top: 1px solid #eee;
+    margin: 0 -25px 0;
+    padding: 0 20px 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #838d8f;
+    i.fa {
+      padding-right: 8px;
+      color: #cdd7d8;
+    }
+    .article-info-term {
+      display: none;
+    }
+  }
+}
+.blog-featured {
+  .items-leading {
+    > div {
+      padding: 20px;
+      background: #FFF;
+    }
+  }
+  .items-row {
+    > div {
+      background: #FFF;
+      padding: 20px;
+    }
+  }
+}
+ul.tags {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  a {
+    background: #d2a60f;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    @include border-radius(0);
+    i.fa-tag {
+      display: none;
+    }
+  }
+}
+.sunfw-pos-main-top {
+  .module-style:first-child {
+    .box-title {
+      margin-top: 0;
+      padding-bottom: 15px;
+    }
+  }
+  .box-title {
+    font-size: 28px;
+    line-height: 1;
+  }
+}
+
+
+//================================================================//
+//========== Section Footer
+
+.jsn_footer {
+  padding: 50px 0 30px;
+  .module-style {
+    .box-title {
+      color: #FFF;
+    }
+  }
+  .subscribe {
+    //padding-left: 20px;
+  }
+  .sunfw-logo {
+    padding-top: 0;
+  }
+  .jsn-uniform {
+    input {
+      box-sizing: border-box;
+    }
+  }
+}
+.border-lr {
+  border-left: 1px solid #43494e;
+  border-right: 1px solid #43494e;
+}
+
+
+//================================================================//
+//========== Copyright
+
+.jsn_copyright {
+  padding: 30px 0;
+  .sunfw-social {
+    text-align: right;
+    a {
+      color: rgba(255,255,255,0.4);
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
+//================================================================//
+//========== K2 Content
+#k2Container {
+  // Item Leading:
+  .itemleading.catItemView {
+    background: #FFF;
+    .catItemTags {
+      position: relative;
+      display: block;
+      top: 0;
+      left: 0;
+    }
+    .catItemDateCreated {
+      border: none;
+    }
+    .content {
+      padding: 20px;
+    }
+    .media {
+      margin: 0;
+    }
+    .catItemTitle {
+      font-size: 26px;
+      line-height: 30px;
+    }
+    span.catItemImage {
+      margin: 0;
+    }
+  }
+  // itemListPrimary
+  #itemListPrimary {
+    margin: 0 -15px;
+  }
+  .catItemView {
+    padding: 0 15px;
+  }
+  .catItemView .item {
+    background: #fff;
+    position: relative;
+    padding: 0 20px 15px;
+  }
+  div.catItemImageBlock {
+    padding: 0;
+    margin: 0 -20px;
+  }
+  .catItemTitle {
+    font-size: 16px;
+    padding-bottom: 0;
+    line-height: 20px;
+  }
+  .catItemDateCreated {
+    border-top: 1px solid #eee;
+    color: #838d8f;
+    display: block;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 0 -20px;
+    padding: 15px 20px 0;
+    i.fa {
+      color: #cdd7d8;
+      padding-right: 8px;
+    }
+  }
+  div.catItemCommentsLink {
+    display: inline-block;
+  }
+  div.catItemTagsBlock {
+    padding: 0;
+  }
+  div.catItemTagsBlock ul.catItemTags li a::before {
+    content: "";
+  }
+  .catItemTags {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    a {
+      background: #d2a60f none repeat scroll 0 0;
+      border-radius: 0;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 12px;
+      padding: 0.2em 0.6em 0.3em;
+      text-transform: uppercase;
+    }
+  }
+  div.catItemBody {
+    padding-bottom: 20px;
+  }
+
+  // item-detail
+  &.item-detail {
+    background: #FFF;
+    padding: 30px 20px 0;
+    .itemHeader {
+      padding: 40px 0;
+      top: 0;
+      text-align: center;
+      .feature {
+        color: #FFF;
+        text-transform: uppercase;
+        font-weight: 600;
+        background: #d2a60f;
+        font-size: 11px;
+        line-height: 12px;
+        sup {
+          top: 0;
+          font-size: 100%;
+          padding: 0 3px;
+          font-weight: bold;
+        }
+      }
+    }
+    h2.itemTitle {
+      color: #292a2d;
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 45px;
+      text-align: center;
+      display: block;
+    }
+    .itemToolbar {
+      margin-top: 0;
+    }
+    .info-head {
+      color: #838d8f;
+      font-size: 12px;
+      line-height: 22px;
+      a {
+        color: #838d8f;
+      }
+      > span {
+        padding-right: 25px;
+        &:last-child {
+          padding-right: 0;
+        }
+        i.fa {
+          padding-right: 5px;
+        }
+      }
+    }
+    span.itemHits, .itemAuthor, .itemDateCreated {
+      float: none;
+      display: inline-block;
+    }
+    .itemBody {
+      padding: 10px 50px;
+      .itemImageBlock {
+        margin: 0;
+        padding: 20px 0 40px;
+      }
+      .itemIntroText {
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: normal;
+      }
+      .itemFullText {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+    .itemSocialSharing {
+      width: 100%;
+      display: block;
+      &:after, &:before {
+        content: " ";
+        display: table;
+        clear: both;
+      }
+      > div {
+        float: right;
+      }
+      div.itemTwitterButton {
+        margin: 0;
+      }
+      div.itemFacebookButton {
+        margin-right: 31px;
+      }
+    }
+    .itemTagsBlock {
+      a {
+        background: #ebeef0;
+        font-size: 12px;
+        color: #979797;
+        overflow: hidden;
+        padding: 3px 20px;
+        @include border-radius(10px);
+      }
+    }
+    .itemCategory {
+      padding-bottom: 10px;
+    }
+    div.itemRelated {
+      background: #e6e9eb;
+      margin: 0 -20px;
+      padding: 0 0 20px 0;
+      > h3 {
+        display: block;
+        text-align: center;
+        padding: 50px 0 40px;
+        font-size: 35px;
+        line-height: 25px;
+        font-weight: bold;
+      }
+      .col-sm-4:nth-child(3n+1) {
+        clear: both;
+        display: block;
+      }
+      .item {
+        background: #FFF;
+        padding: 0 20px 15px;
+        .media {
+          margin: 0 -20px;
+        }
+        .itemRelTitle {
+          display: block;
+          padding: 15px 0;
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 600;
+        }
+        .itemRelIntrotext {
+          padding-bottom: 10px;
+        }
+      }
+    }
+    .itemNavigation {
+      background: transparent;
+    }
+    #commentText {
+      border: 1px solid #ccc;
+    }
+    .itemBackToTop {
+      padding: 0;
+    }
+    .footer-social-tag {
+      padding: 30px 50px 20px;
+      &:after, &:before {
+        content: " ";
+        display: table;
+        clear: both;
+      }
+      .itemTagsBlock {
+        float: left;
+        width: 50%;
+      }
+      .itemSocialSharing {
+        float: right;
+        width: 50%;
+      }
+      div.itemSocialSharing {
+        padding: 0;
+      }
+    }
+    .itemExtraFields {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      > h3 {
+        display: none;
+      }
+      .itemExtraFieldsLabel {
+        font-size: 22px;
+        line-height: 23px;
+        color: #292a2d;
+        display: block;
+        font-weight: bold;
+        padding-bottom: 15px;
+      }
+      .itemExtraFieldsValue {
+        font-size: 16px;
+        line-height: 26px;
+        color: #292a2d;
+        b {
+          font-weight: 500;
+          display: block;
+        }
+      }
+    }
+  }
+  &.item-detail.programs {
+    padding: 0;
+    background: transparent;
+    .itemBody {
+      background: #FFF;
+      padding: 0 20px;
+      .itemImageBlock {
+        margin: 0 -20px;
+        padding-top: 0;
+      }
+      .itemSocialSharing:before, .itemSocialSharing:after {
+        display: table;
+        clear: both;
+        content: " ";
+      }
+    }
+    .item-heading {
+      padding: 0 20px;
+      .itemTitle {
+        font-size: 35px;
+        line-height: 1;
+      }
+      .itemIntroText {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: normal;
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .itemExtraFields {
+        background: #dbdee0;
+        margin: 0 -20px 20px;
+        padding: 10px 20px 30px;
+        color: #6f7779;
+        .itemExtraFieldsLabel {
+          font-size: 14px;
+          line-height: 24px;
+          display: block;
+        }
+        .itemExtraFieldsValue {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 24px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  .itemBackToTop {
+    display: none;
+  }
+  &.itemListView div.catItemView {
+    margin-bottom: 30px;
+  }
+}
+
+div.itemIsFeatured::before, div.catItemIsFeatured::before, div.userItemIsFeatured::before {
+  display: none;
+}
+.tagView div.tagItemView {
+  margin-bottom: 30px;
+  background: #FFF;
+  padding: 20px;
+}
+
+
+//================================================================//
+//========== Pagination
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus,
+.pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.k2Pagination {
+  display: block;
+  clear: both;
+}
+div.k2Pagination ul li.active a,
+div.k2Pagination ul li a,
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+.pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus{
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #a3aaaf;
+  font-size: 13px;
+  &:hover {
+    background: transparent;
+  }
+}
+div.k2Pagination ul li.active a {
+ color: #272727;
+}
+
+
+// newsfeed-category
+.newsfeed-category {
+  #filter-search {
+    min-width: 250px;
+  }
+}
+
+// Search
+#searchForm {
+  .chzn-container-single .chzn-single {
+    height: 27px;
+  }
+}
+.search {
+  dl.search-results {
+    margin-top: 0;
+    dt.result-title {
+      padding: 20px 0 0;
+    }
+  }
+}
+div#kunena.layout {
+  .search {
+    input, .btn {
+      top: 0;
+    }
+  }
+  .table {
+    background: #FFF;
+    margin-top: 15px;
+  }
+  .statistics {
+    .table {
+      thead > tr:first-child {
+        th {
+          border: none;
+        }
+      }
+    }
+  }
+  .navbar-nav li.dropdown, .dropdown-toggle {
+    display: block !important;
+  }
+  [class*="badger"] {
+    background: #FFF;
+  }
+  #topic-actions.kmessagepadding {
+    > div > .btn-group {
+      display: inline-block !important;
+    }
+  }
+}
+.form-validate .hasPopover {
+  display: block !important;
+}
+
+//================================================================//
+//========== sunfw pos right
+
+.sunfw-pos-right {
+  .module-style {
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Right to left
+.sunfw-direction-rtl {
+  .jsn_top .sunfw-social {
+    float: left;
+  }
+  .sunfw-menu-head .megamenu .caret {
+    float: left;
+    right: auto;
+    left: 15px;
+  }
+  .sunfw-menu-head .megamenu .sunfw-mega-menu .caret:before {
+    content:"\f104";
+  }
+  .search_universalis i {
+    left: 0;
+    right: auto;
+  }
+  .search_universalis input {
+    float: left;
+  }
+  .sunfw-menu-head ul.sunfw-tpl-menu > li.dropdown-submenu > a .caret {
+    float: left;
+    right: auto;
+    left: 20px;
+  }
+  div.UniversalisEvent > ul > li > .content {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .jsn_header .sunfw-menu .sunfw-tpl-menu {
+    float: left;
+    padding-left: 0;
+  }
+  .jsn_header .sunfw-menu {
+    padding-left: 0;
+  }
+  .jsn_header .sunfw-menu .sunfw-tpl-menu > li:first-child > a {
+    padding-left: 0;
+  }
+  .feature_home .pb-grid .pb-content {
+    text-align: right;
+  }
+  .pb-item {
+    text-align: right;
+  }
+  .K2_Items .pb-column .Date::before {
+    float: right;
+    padding-right: 0;
+    padding-left: 8px;
+  }
+  .UniversalisEventNews .item .moduleItemDateCreated i.fa {
+    padding-left: 8px;
+    padding-right: 0;
+  }
+  div.UniversalisEvent > ul .content h3 {
+    float: right;
+  }
+  .pb-centered.pb-grid > .pb-column:not(.pb-aligned):not(.pb-row),
+  .pb-centered.pb-grid > .pb-row > .pb-column:not(.pb-aligned),
+  .pb-grid .pb-centered.pb-row > .pb-column:not(.pb-aligned) {
+    text-align: right;
+  }
+  div.UniversalisFirstImage > ul > li:first-child .content {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .sunfw-social ul li:last-child {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .btn-toolbar .btn, .btn-toolbar .btn-group, .btn-toolbar .input-group {
+    float: right;
+  }
+  .sunfw-menu-head ul.sunfw-tpl-menu > li.dropdown-submenu > a .caret:before {
+    padding-right: 5px;
+  }
+}
+
+.sunfw-view-article{
+  .item-page{
+    .article-info-term{
+      display: none;
+    }
+    .article-info.muted{
+      margin-bottom: 15px;
+    }
+    .articleBody{
+      margin-top: 10px;
+    }
+  }
+}
+.jsn-uniform{
+  button.ui-datepicker-trigger{
+    padding: 3.5px 10px;
+    margin-top: -2px;
+  }
+}

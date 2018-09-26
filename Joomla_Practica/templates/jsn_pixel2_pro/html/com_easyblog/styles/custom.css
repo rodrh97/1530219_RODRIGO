@@ -1,0 +1,186 @@
+.eb-component {
+	background: #fff;
+	padding: 20px;
+}
+#eb .eb-section-heading {
+    border-bottom: 1px solid #d0d0d0;
+}
+#eb .eb-post-side+.eb-post-content {
+    margin: 0;
+}
+#eb .eb-post-thumb .eb-post-image {
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+#eb .eb-avatar img {
+	border-radius: 0;
+}
+#eb.is-mobile .eb-post-side {
+	display: block;
+}
+#eb .eb-blog-grid-showcase-content {
+	padding: 20px 20px 0;
+}
+#eb .eb-blog-grid-showcase-control {
+    bottom: 15px;
+}
+#eb .eb-post-side {
+	position: relative;
+}
+#eb .eb-post-side>div.eb-post-featured {
+	position: absolute;
+    top: -10px;
+    right: 1px;
+}
+#eb .eb-navbar__footer-link {
+    font-size: 13px;
+}
+#eb .eb-navbar__search:before {
+    color: #999;
+}
+#eb .eb-navbar__search-form {
+    padding-left: 0;
+}
+#eb .eb-navbar__search-input {
+    padding: 2px 25px;
+    border-radius: 0;
+    background-color: #fff;        	
+}
+#eb .eb-navbar__icon-link {
+    color: #999;	
+}
+#eb .eb-navbar-rss-icon {
+    color: inherit;
+}
+#eb .is-active>.eb-navbar__footer-link {
+    color: #000;
+}
+#eb .is-active .eb-navbar__footer-link:before {
+    background-color: #000;	
+}
+#eb .eb-showcases {
+    margin: 0 0 30px;	
+}
+#eb .eb-showcase-meta>div {
+    margin: 0 6px 0 0;
+}
+#eb .eb-help-resize a {
+    line-height: 1;	
+}
+#eb .eb-posts .eb-post+.eb-post {
+    margin-top: 30px;
+}
+#eb.mod_easyblogcategories .eb-mod-media-title {
+    vertical-align: text-top;
+    margin-top: -5px;
+    display: inline-block;
+}
+#eb .eb-blog-grid__meta--text {
+    font-size: 13px;
+}
+#eb .eb-blog-grid__meta {
+    margin-top: 5px;
+}
+#eb .eb-post-foot {
+    border-radius: 0 0 2px 2px;
+    padding: 5px 0 15px;
+}
+#eb .eb-showcases {
+	border-radius: 0;
+}
+#eb.mod_easybloglatestblogs .eb-mod-thumb .eb-mod-image-cover {
+	padding: 0;
+	border: none;
+	border-radius: 0;
+}
+#eb.mod_easybloglatestblogs .eb-mod-thumb .eb-mod-image-cover:before {
+	border: none;
+}
+#eb.mod-easyblogtagcloud a {
+	margin: 5px;
+}
+#eb.mod_easybloglatestblogs .eb-mod-thumb .eb-mod-image {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+#eb .eb-pager {
+	border-radius: 0;
+	border-color: #d9d9d9;
+}
+#eb .eb-post-title {
+	line-height: 22px;
+}
+#eb .eb-entry-meta {
+    margin: 10px 0 0;
+}
+#eb .eb-tags-item,
+#eb .form-control,
+#eb .btn {
+	border-radius: 0;
+	box-shadow: none;
+}
+#eb .eb-navbar {
+	margin-bottom: 20px;
+}
+#eb .eb-posts.for-tag {
+	margin-top: 30px;
+}
+#eb .eb-entry-body {
+    padding-top: 15px;
+}
+#eb .eb-navbar.has-footer .eb-navbar__body {
+    border-radius: 0;
+}
+#eb .eb-entry-nav {
+    margin: 20px 0 0;
+}
+#eb .eb-navbar__footer {
+	border-radius: 0;
+	border-color: #d9d9d9;
+	padding: 6px 16px;
+}
+#eb .eb-showcases.slide .eb-showcase-control>.btn:last-child,
+#eb .eb-showcases.slide .eb-showcase-control>.btn:first-child {
+	border-radius: 0;
+}
+#eb .eb-post-side+.eb-post-content .eb-post-head {
+	margin: -10px 0 0 65px;
+}
+#eb .eb-mod-cal .eb-calendar .eb-calendar-days>td {
+    border-bottom: 1px solid #ddd !important;
+}
+#eb .eb-mod-cal .eb-calendar tbody>tr>td {
+	text-align: center !important;
+}
+#eb .eb-posts .eb-post{
+	border-bottom: 4px double #d9d9d9;
+}
+#eb .eb-posts .eb-post:last-child {
+	border-bottom: none;
+}
+#eb #eb-showcases .eb-showcase-content .eb-avatar.pull-right{
+	float: left !important;
+	margin-right: 6px;
+}
+#eb .mod-btn.mod-btn-primary{
+	color: #428bca !important;
+    background-image: linear-gradient(to bottom,#edf4fa 20%,#d9e8f4 100%) !important;
+    border-color: #a6c8e6 !important;	
+    border-radius: 0;
+}
+#eb .mod-btn.mod-btn-primary:hover,#eb .mod-btn.mod-btn-primary:focus{
+	color: #428bca !important;
+    border-color: #7eb0db !important;
+    outline: none;	
+}
+#eb .eb-navbar__icon-link{
+	color: #fff;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+	#eb .eb-post-thumb.is-left{
+		float: none;
+		margin-bottom: 10px;
+	}
+}

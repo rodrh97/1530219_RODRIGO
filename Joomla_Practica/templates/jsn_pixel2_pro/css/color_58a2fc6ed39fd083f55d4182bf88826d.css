@@ -1,0 +1,63 @@
+/* ============================ */
+@media (min-width: 768px) {
+  .main-menu ul.sunfw-tpl-menu > li.active::before, .main-menu ul.sunfw-tpl-menu > li:hover::before {
+    background: #b85e6d;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+    background-color: #b85e6d;
+  }
+  .menu-topmenu ul li:hover {
+    background: #b85e6d;
+  }
+}
+.demo-events .demo-events-desc h3 a {
+  color: #b85e6d;
+}
+.item-student a {
+  color: #b85e6d;
+}
+.menu.menu-treemenu li.active > a {
+  color: #b85e6d;
+}
+.sunfw-scrollup {
+  background: #b85e6d !important;
+}
+.page-header h2 {
+  color: #b85e6d;
+}
+.link-action {
+  background: #b85e6d;
+}
+.link-action:hover {
+  background: #7a3641;
+}
+.menu.menu-topmenu li a:hover {
+  color: #b85e6d;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #b85e6d;
+  border-color: #b85e6d;
+}
+.main-menu.special ul.sunfw-tpl-menu > li:last-child > a {
+  color: #b85e6d !important;
+}
+.main-menu.special ul.sunfw-tpl-menu > li:last-child:hover > a {
+  color: #b85e6d !important;
+}
+#eb .eb-blog-grid-showcase-content__meta a, #eb .eb-blog-grid__meta a, #eb .eb-tags span a {
+  color: #b85e6d;
+}
+#eb .eb-navbar__body {
+  background-color: #b85e6d;
+  border-color: #b85e6d;
+}
+.Button.pb-button.btn {
+  background-color: #b85e6d !important;
+}
+.Button.pb-button.btn:hover {
+  background-color: #9f2b2b !important;
+}
+#sunfw_section_footer {
+  background: #b85e6d;
+}
+/* ============================ Sub Color ============================ */

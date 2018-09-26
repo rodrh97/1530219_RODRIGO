@@ -1,0 +1,44 @@
+#sunfw_section_slider h1, #sunfw_section_slider h2, #sunfw_section_slider h3, #sunfw_section_slider h4, #sunfw_section_slider h5, #sunfw_section_slider h6, #sunfw_section_slider .h1, #sunfw_section_slider .h2, #sunfw_section_slider .h3, #sunfw_section_slider .h4, #sunfw_section_slider .h5, #sunfw_section_slider .h6 {
+  text-transform: capitalize;
+  line-height: 1;
+}
+#sunfw_section_slider h1, #sunfw_section_slider .h1 {
+  font-size: 26px;
+}
+#sunfw_section_slider h2, #sunfw_section_slider .h2 {
+  font-size: 21px;
+}
+#sunfw_section_slider h3, #sunfw_section_slider .h3 {
+  font-size: 17px;
+}
+#sunfw_section_slider h4, #sunfw_section_slider .h4 {
+  font-size: 13px;
+}
+#sunfw_section_slider h5, #sunfw_section_slider .h5 {
+  font-size: 10px;
+}
+#sunfw_section_slider h6, #sunfw_section_slider .h6 {
+  font-size: 9px;
+}
+#sunfw_section_menu {
+  border-top-width: 0px;
+  border-top-style: initial;
+  border-bottom-width: 0px;
+  border-bottom-style: initial;
+}
+#sunfw_section_copyright {
+  font-size: 12px;
+}
+#sunfw_section_copyright h1, #sunfw_section_copyright h2, #sunfw_section_copyright h3, #sunfw_section_copyright h4, #sunfw_section_copyright h5, #sunfw_section_copyright h6, #sunfw_section_copyright .h1, #sunfw_section_copyright .h2, #sunfw_section_copyright .h3, #sunfw_section_copyright .h4, #sunfw_section_copyright .h5, #sunfw_section_copyright .h6 {
+  color: #fff;
+}
+#sunfw_section_footer {
+  font-size: 12px;
+}
+#sunfw_section_footer h1, #sunfw_section_footer h2, #sunfw_section_footer h3, #sunfw_section_footer h4, #sunfw_section_footer h5, #sunfw_section_footer h6, #sunfw_section_footer .h1, #sunfw_section_footer .h2, #sunfw_section_footer .h3, #sunfw_section_footer .h4, #sunfw_section_footer .h5, #sunfw_section_footer .h6 {
+  color: #fff;
+  text-transform: uppercase;
+}
+#sunfw_section_footer a {
+  color: #fff;
+}

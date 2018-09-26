@@ -1,0 +1,63 @@
+/* ============================ */
+@media (min-width: 768px) {
+  .main-menu ul.sunfw-tpl-menu > li.active::before, .main-menu ul.sunfw-tpl-menu > li:hover::before {
+    background: #dd514a;
+  }
+  .main-menu ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+    background-color: #dd514a;
+  }
+  .menu-topmenu ul li:hover {
+    background: #dd514a;
+  }
+}
+.demo-events .demo-events-desc h3 a {
+  color: #dd514a;
+}
+.item-student a {
+  color: #dd514a;
+}
+.menu.menu-treemenu li.active > a {
+  color: #dd514a;
+}
+.sunfw-scrollup {
+  background: #dd514a !important;
+}
+.page-header h2 {
+  color: #dd514a;
+}
+.link-action {
+  background: #dd514a;
+}
+.link-action:hover {
+  background: #a2251f;
+}
+.menu.menu-topmenu li a:hover {
+  color: #dd514a;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #dd514a;
+  border-color: #dd514a;
+}
+.main-menu.special ul.sunfw-tpl-menu > li:last-child > a {
+  color: #dd514a !important;
+}
+.main-menu.special ul.sunfw-tpl-menu > li:last-child:hover > a {
+  color: #dd514a !important;
+}
+#eb .eb-blog-grid-showcase-content__meta a, #eb .eb-blog-grid__meta a, #eb .eb-tags span a {
+  color: #dd514a;
+}
+#eb .eb-navbar__body {
+  background-color: #dd514a;
+  border-color: #dd514a;
+}
+.Button.pb-button.btn {
+  background-color: #dd514a !important;
+}
+.Button.pb-button.btn:hover {
+  background-color: #9f2b2b !important;
+}
+#sunfw_section_footer {
+  background: #dd514a;
+}
+/* ============================ Sub Color ============================ */
