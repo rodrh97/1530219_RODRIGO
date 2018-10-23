@@ -3,7 +3,7 @@
 	$before_login=true;
 	include_once "menu.php";
 ?>
-	<h2>Book Management System</h2>
+	<br><center><h2 class="ui header">Book Management System</h2></center>
 <?php
 	include_once "footer.php";
 ?>

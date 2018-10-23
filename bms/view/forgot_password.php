@@ -8,25 +8,30 @@
 	if($status=="before_submission" or $status=="failure")
 	{
 ?>
-	<h3>Please fill up the following form to retrieve password of your account</h3>
-	<form method="post">
-		<fieldset>
-			<legend>Forgot Password Form</legend>
+	<br><center><h3 class="ui header">Please fill up the following form to retrieve password of your account</h3></center><br>
+	<div class="ui text container">
+	<form method="post" class="ui form">
+		<div class="ui raised very padded text container segment">
+			<center><h3 class="ui header">Forgot Password Form</h3></center>
+			<br>
+			<div class="field">
 			<label for="username">Username</label>
 			<input type="text" name="username" id="username" value="<?php echo $_REQUEST["username"]; ?>">
 			<font color="red"><?php echo $errors["username"]; ?></font>
+			</div>
 			<br>
 			<input type="hidden" name="page" value="forgot_password">
 			<input type="hidden" name="caller" value="self">
-			<input type="submit" value="Retrieve Password">
-		</fieldset>
+			<center><input class="ui positive button" type="submit" value="Retrieve Password"></center>
+		</div>
 	</form>
+	</div>
 <?php
 	}
 	else
 	{
 ?>
-		<h3>Please check your mail for new password</h3>
+		<br><center><h3 class="ui header">Please check your mail for new password</h3></center>
 <?php
 	}
 ?>

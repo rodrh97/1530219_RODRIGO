@@ -5,8 +5,8 @@
 		$after_login=true;
 		include_once "menu.php";
 ?>
-
-<h3>Welcome to Home Page</h3>
+<br>
+<center><h3 class="ui header">Welcome to Home Page</h3><center>
 
 <?php
 	}
@@ -15,7 +15,8 @@
 		$before_login=true;
 		include_once "menu.php";
 ?>
-<h3>Invalid Login!!! Try Again.</h3>
+<br>
+<center><h3 class="ui header">Invalid Login!!! Try Again.</h3><center>
 <?php
 	}
 	include_once "footer.php";

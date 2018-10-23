@@ -8,33 +8,44 @@
 	if($status=="before_submission" or $status=="failure")
 	{
 ?>
-	<h3>Please fill up the following form to register yourself</h3>
-	<form method="post">
-		<fieldset>
-			<legend>Registration Form</legend>
+<br>
+	<center><h3 class="ui header">Please fill up the following form to register yourself</h3></center>
+	<br>
+	<div class="ui text container">
+	<form method="post" class="ui form">
+		<div class="ui raised very padded text container segment">
+			<center><h3 class="ui header">Registration Form</h3></center>
+			<br>
+			<div class="field">
 			<label for="name">Name</label>
 			<input type="text" name="name" id="name" >
 			<font color="red"><?php echo $errors["name"]; ?></font>
+			</div>
 			<br>
+			<div class="field">
 			<label for="username">Username</label>
 			<input type="text" name="username" id="username" >
 			<font color="red"><?php echo $errors["username"]; ?></font>
+			</div>
 			<br>
+			<div class="field">
 			<label for="password">Password</label>
 			<input type="password" name="password" id="password">
 			<font color="red"><?php echo $errors["password"]; ?></font>
+			</div>
 			<br>
 			<input type="hidden" name="page" value="register">
 			<input type="hidden" name="caller" value="self">
-			<input type="submit" value="Sign Up">
-		</fieldset>
+			<center><input class="ui positive button" type="submit" value="Sign Up"></center>
+		</div>
 	</form>
+</div>
 <?php
 	}
 	else
 	{
 ?>
-		<h3>Registration Successful</h3>
+		<br><center><h3 class="ui header">Registration Successful</h3></center>
 <?php
 	}
 ?>

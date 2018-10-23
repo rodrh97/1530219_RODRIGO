@@ -10,29 +10,34 @@
 		if($status=="before_submission" or $status=="failure")
 		{
 ?>
-	<h3>Please fill up the following form to delete book</h3>
-	<form method="post">
-		<fieldset>
-			<legend>Book Delete Form</legend>
+	<br><center><h3 class="ui header">Please fill up the following form to delete book</h3></center><br>
+	<div class="ui text container">
+	<form method="post" class="ui form">
+		<div class="ui raised very padded text container segment">
+			<center><h3 class="ui header">Book Delete Form</h3></center>
+			<br>
+			<div class="field">
 			<label for="title">Do you really want to delete book <?php echo $book[0]["title"]; ?>?</label>
 			<br>
 			<select name="choice">
 				<option value="yes">Yes</option>
 				<option value="no" selected>No</option>
 			</select>
+			</div>
 			<br>
 			<input type="hidden" name="page" value="book_delete">
 			<input type="hidden" name="caller" value="self">
 			<input type="hidden" name="id" value="<?php echo $book[0]["id"]; ?>">
-			<input type="submit" value="Delete">
-		</fieldset>
+			<center><input class="ui negative button" type="submit" value="Delete"></center>
+		</div>
 	</form>
+	</div>
 <?php
 		}
 		else
 		{
 ?>
-		<h3>Book Deleted</h3>
+		<br><center><h3 class="ui header">Book Deleted</h3></center>
 <?php
 		}
 	}
@@ -41,7 +46,7 @@
 		$before_login=true;
 		include_once "menu.php";
 ?>
-<h3>Invalid Login!!! Try Again.</h3>
+<br><center><h3 class="ui header">Invalid Login!!! Try Again.</h3></center>
 <?php
 	}
 	include_once "footer.php";
