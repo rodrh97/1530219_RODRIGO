@@ -17,11 +17,11 @@
 ?>
 <center>
 <div class="ui compact menu">
-	<li><a class="browse item" href="index.php?page=home">Home</a></li>
-	<li><a class="browse item" href="index.php?page=profile">Profile</a></li>
-	<li><a class="browse item" href="index.php?page=book_add">Add Book</a></li>
-	<li><a class="browse item" href="index.php?page=book_list">List Book</a></li>
-	<li><a class="browse item" href="index.php?page=logout">Logout</a></li>
+	<a class="browse item" href="index.php?page=home">Home</a>
+	<a class="browse item" href="index.php?page=profile">Profile</a>
+	<a class="browse item" href="index.php?page=book_add">Add Book</a>
+	<a class="browse item" href="index.php?page=book_list">List Book</a>
+	<a class="browse item" href="index.php?page=logout">Logout</a>
 </div>
 </center>
 <?php
